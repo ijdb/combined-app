@@ -1,0 +1,78 @@
+.todo-parent {
+    background-color: #FBEEAC;
+    height: 97vh;
+}
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 2em;
+    max-width: 60%;
+    margin: 7rem auto;
+    border: 25px solid #F3AA60;
+    border-radius: 5px;
+    background-color: #1D5B79;
+    color: #F8FDCF;
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+}
+
+.todo-info {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 25px;
+}
+
+.todo-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.todo-container>input {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    color: #1D5B79;
+}
+
+.todo-container>button {
+    padding: 7px 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F3AA60;
+    color: #1D5B79;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.todo-item {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.todo-tick, .todo-text, .todo-del {
+    font-size: 26px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.line {
+    text-decoration: line-through #F3AA60;
+    font-size: 26px;
+    margin-right: 20px;
+
+}

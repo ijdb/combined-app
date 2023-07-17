@@ -1,0 +1,51 @@
+.pswd-parent {
+    height: 97vh;
+    background-color: #A78295;
+}
+
+.pass-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 15px solid #331D2C;
+    border-radius: 5px;
+    max-width: 60%;
+    height: 40%;
+    margin: 100px auto;
+    background-color: #F5F3C1;
+    color: #3F2E3E;
+    padding-top: 50px;
+}
+
+.pass-title {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 0 0 3px #3F2E3E;
+}
+
+.pass-container>button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border: 5px solid #A78295;
+    border-radius: 5px;
+    background-color: #3F2E3E;
+    color: #EFE1D1;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px #827397;
+}
+
+.pass-container>button:active {
+    transform: translateY(5px);
+}
+
+.pass-answer {
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #2D4356;
+}

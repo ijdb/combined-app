@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;500&display=swap');
+
+.pom-body {
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: #4FC0D0;
+    height: 98vh;
+    margin: 0;
+}
+
+.pom-container {
+    height: 35rem;
+    width: 35rem;
+    margin: 6em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #A2FF86;
+    color: white;
+    box-shadow: 5px 5px 8px #F6F1F1;
+}
+
+.pom-container:hover {
+    transform: scale(1.02);
+}
+
+.pom-title {
+    font-size: 55px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.timer {
+    font-size: 72px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.pom-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pom-buttons button {
+    font-size: 26px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4FC0D0;
+    color: #A2FF86;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.pom-buttons button:hover {
+    color: white;
+}

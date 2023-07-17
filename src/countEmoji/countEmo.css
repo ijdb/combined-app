@@ -1,0 +1,35 @@
+.emoji-container {
+    background-color: #FFEADD;
+    min-height: 97vh;
+    overflow-x: hidden;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 5px;
+    background-color: #EAB2A0;
+    height: 18%;
+    margin-top: 0.2em;
+}
+
+.btn-container button, .count-title {
+    padding: 0.2em 1.3em;
+    font-size: 1.8em;
+    font-weight: bold;
+    border: none;
+    background-color: #FFEADD;
+    border-radius: 5px;
+    color: #A76F6F;
+}
+
+.emoji-tray {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 60px;
+    width: 100%;
+    padding: 30px 20px;
+}

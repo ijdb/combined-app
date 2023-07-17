@@ -1,0 +1,27 @@
+.window-container {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF7C43;
+    margin: 0;
+    height: 97vh;
+    align-items: center;
+    padding: 5rem;
+}
+
+.tracker-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.window-title {
+    color: white;
+    letter-spacing: 1.5px;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}

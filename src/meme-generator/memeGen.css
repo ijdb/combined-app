@@ -1,0 +1,112 @@
+.meme-container {
+    height: 98vh;
+    background-color: #D7BBF5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.header--title {
+    font-size: 1.6rem;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.header--project {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.form-MG {
+    display: grid;
+    grid-template: 4rem 3rem / 20rem 20rem;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.form--input {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    font-size: 18px;
+    max-width: 20rem;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.meme {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.meme--image {
+    width: 45%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 25px 0;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}

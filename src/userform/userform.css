@@ -1,0 +1,53 @@
+.user-container {
+    background-color: #001C30;
+    min-height: 97vh;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5em;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    gap: 0.8em;
+    background-color: #FAF0D7;
+    border-radius: 5px;
+    padding: 2em;
+    color: #331D2C;
+}
+
+.user-form label {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.user-form input, .user-list-item {
+    max-width: 300px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.user-form button {
+    padding: 5px 10px;
+    max-width: 7rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #8CC0DE;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.user-list-item {
+    list-style-type: none;
+    margin-left: -37px;
+    background-color: white;
+    margin-top: 0.2em;
+}
