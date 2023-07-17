@@ -39,7 +39,7 @@ function App() {
 function Home() {
   return (
     <div className="app-title">
-      Welcome
+      Welcome to my website
       <Confetti />
     </div>
   );
