@@ -59,7 +59,7 @@ function Todolist() {
                 <div onClick={() => handleToggle(index)} className="todo-tick">
                   <TiTick />
                 </div>
-                <div className={todo.completed ? "line" : "" + "todo-text"}>
+                <div className={todo.completed ? "line" :"todo-text"}>
                   {todo.text}
                 </div>
                 <div

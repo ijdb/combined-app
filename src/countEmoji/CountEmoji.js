@@ -30,7 +30,7 @@ function CountEmoji() {
   };
 
   const subtractEmoji = () => {
-    if (count == 0) return;
+    if (count === 0) return;
     setCount((prev) => prev - 1);
     const newTray = [...tray];
     newTray.pop();
