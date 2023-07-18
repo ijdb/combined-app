@@ -11,6 +11,7 @@
     text-align: center;
     margin-top: 15rem;
     font-family: 'Comic Neue', cursive;
+    color: white;
 }
 
 button {
@@ -22,7 +23,7 @@ button {
     grid-template-columns: 1fr 5fr;
     height: 97vh;
     background-color: #001C30;
-    color: white;
+
 }
 
 nav {
