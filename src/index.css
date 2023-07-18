@@ -21,6 +21,8 @@ button {
     display: grid;
     grid-template-columns: 1fr 5fr;
     height: 97vh;
+    background-color: #001C30;
+    color: white;
 }
 
 nav {
@@ -29,7 +31,6 @@ nav {
     gap: 10px;
     justify-content: space-around;
     padding: 1em 1em;
-    background-color: #001C30;
 }
 
 nav>a {
